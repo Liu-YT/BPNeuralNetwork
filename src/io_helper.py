@@ -1,11 +1,6 @@
 import numpy as np
 from struct import unpack
 
-train_image_path = './../data/train-images-idx3-ubyte'
-train_label_path = './../data/train-labels-idx1-ubyte'
-test_image_path = './../data/t10k-images-idx3-ubyte'
-test_label_path = './../data/t10k-labels-idx1-ubyte'
-
 
 def __read_image(path):
     with open(path, 'rb') as f:
